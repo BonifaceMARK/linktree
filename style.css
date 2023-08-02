@@ -1,0 +1,50 @@
+html {
+  height: 100;
+  margin: 0;
+  overflow: scroll;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("src/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 50px auto;
+}
+section {
+  display: contents;
+  flex: auto;
+  max-width: fit-content;
+  margin: auto;
+}
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.bio {
+  color: #fff;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
